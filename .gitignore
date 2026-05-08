@@ -1,0 +1,17 @@
+# 隐私数据：报销发票（保留文件夹结构，但发票 PDF 本身不入库）
+待报销的发票/**/*.pdf
+
+# 隐私数据：notebook 生成的合成 PDF
+最终_*.pdf
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# 编辑器/工具本地配置
+.claude/
+.vscode/
+.idea/
